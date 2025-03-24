@@ -1,0 +1,95 @@
+<section class="section-grey">
+                <div class="container">
+
+                    {/* <!--begin row--> */}
+                    <div class="row">
+                    
+                        {/* <!--begin col-md-6--> */}
+                        <div class="col-md-6">
+
+                            <img src={subimage2} class="width-100 margin-right-15 box-shadow" alt="pic"/>
+
+                        </div>
+                        {/* <!--end col-sm-6--> */}
+                        
+                        {/* <!--begin col-md-6--> */}
+                        <div class="col-md-6">
+
+                            <h3>Learn more about us.</h3>
+
+                            {/* <!--begin accordion --> */}
+                            <div class="accordion" id="accordionFAQ">
+                                {/* <!--begin card --> */}
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Virtual Yoga:
+                                        </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFAQ">
+                                        <div class="card-body">
+                                        Access a wide variety of yoga, ranging from gentle flows to dynamic vinyasa sequences, all available at your fingertips. 
+                                        Our virtual trainer will lead you through each session, providing detailed instructions and modifications to suit your individual needs.
+                                        </div>
+                                    </div>
+
+                                </div>
+                                {/* <!--end card --> */}
+
+                                {/* <!--begin card --> */}
+                                <div class="card">
+
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Personalized Guidance:
+                                        </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionFAQ">
+                                        <div class="card-body">
+                                        We understand that everyone's yoga journey is unique.
+                                        That's why our virtual trainer offers personalized guidance, helping you set goals, track progress, and tailor your practice to align with your specific requirements.
+                                        </div>
+                                    </div>
+
+                                </div>
+                                {/* <!--end card --> */}
+
+                                {/* <!--begin card --> */}
+                                <div class="card">
+
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Fitness and Mindfulness: 
+                                        </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQ">
+                                        <div class="card-body">
+                                        Discover the power of fitness and cultivate a sense of calm and clarity through virtual trainer. 
+                                        Our virtual trainer will lead you through mindfulness exercises, angle to follow that relaxation practices to promote overall well-being.
+                                        </div>
+                                    </div>
+
+                                </div>
+                                {/* <!--end card --> */}
+
+                            </div>
+                            {/* <!--end accordion --> */}
+
+                        </div>
+                        {/* <!--end col-md-6--> */}
+                    
+                    </div>
+                    {/* <!--end row--> */}
+            
+                </div>
+                {/* <!--end container--> */}
+                </section>

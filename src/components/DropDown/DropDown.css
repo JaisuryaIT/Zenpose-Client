@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&family=Roboto:wght@100;500;700&display=swap');
+
+#pose-dropdown-btn:hover {
+    border-color: rgb(0, 0, 0);
+}
+#pose-dropdown-btn:active {
+    background-color: white;
+}
+#pose-dropdown-btn {
+    width: 400px;
+    background-color: rgb(244, 102, 194);
+    color: black;
+    position: fixed;
+}
+
+
+
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+}
+#pose-dropdown-btn:focus {
+    background-color: #e8dbe9c2;
+    color: black;
+    box-shadow: none;
+}
+#pose-dropdown-btn:focus-within {
+    border-color: #e8dbe9c2;
+}
+.dropdown-option {
+    background: url('../../utils/pose_images/chair.png');
+}
+
+.dropdown-custom-menu {
+    overflow: scroll;
+    height: 40vh;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    font-family: "Poppins";
+}
+
+.dropdown-custom-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.dropdown-item-container {
+    width: 400px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+.dropdown-item-1 {
+    margin:70px;
+}
+.dropdown-img {
+    width: 80px;
+    height: 80px;
+    font-family: "Poppins";
+}
