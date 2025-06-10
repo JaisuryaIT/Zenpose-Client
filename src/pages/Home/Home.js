@@ -51,7 +51,7 @@ export default function Home() {
             <div className='home-container' id="home">
                 <div className='home-header'>
                     <div className='head'>
-                    <h1 className='home-heading'>ZENPOSE</h1>
+                    <h1 className='home-heading'>YogaVision</h1>
                     </div>
                     {/* <Link
                     to="home"
@@ -98,7 +98,7 @@ export default function Home() {
                             Test Pose
                         </button>
                     </Link>
-                    <a href="https://zenpose.solvixsoftworks.com/">
+                    <a href="https://yogavision.solvixsoftworks.com/">
                         <button className="btnn" id="getstarted-btn">
                             Portal
                         </button>
@@ -416,7 +416,7 @@ export default function Home() {
                                         {/* <!--begin col-md-12 --> */}
                                         <div className="col-md-12 text-center padding-top-30">
 
-                                            <p className="follow-instagram">Like what you see? Follow us <a href="#">@Zenpose</a></p>
+                                            <p className="follow-instagram">Like what you see? Follow us <a href="">@YogaVision</a></p>
                                         
                                         </div>
                                         {/* <!--end col-md-12 --> */}
@@ -594,7 +594,7 @@ export default function Home() {
                     {/* <!--begin col-md-12 --> */}
                     <div className="col-md-12 text-center">
                        
-                        <p>Copyright © 2025 <span className="template-name">ZENPOSE</span>.</p> 
+                        <p>Copyright © 2025 <span className="template-name">YogaVision</span>.</p> 
                         
                     </div>
                     {/* <!--end col-md-6 --> */}

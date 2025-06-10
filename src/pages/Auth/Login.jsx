@@ -11,7 +11,7 @@ function Login() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post("https://zenpose.solvixsoftworks.com/api/login", { email, password });
+      const response = await axios.post("https://yogavision.solvixsoftworks.com//api/login", { email, password });
       if (response.status === 200) {
         const { user_id } = response.data;
         Cookies.set("auth_token", user_id, { expires: 7, secure: true, sameSite: "Strict" });

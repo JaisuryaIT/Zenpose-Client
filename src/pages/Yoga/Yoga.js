@@ -227,7 +227,7 @@ function Yoga() {
 
           console.log(data)
 
-          axios.post("https://zenpose.solvixsoftworks.com/api/pose", data)
+          axios.post("https://yogavision.solvixsoftworks.com/api/pose", data)
             .then(response => {
                 if (response.status === 201) {
                     console.log("✅ Pose saved successfully:", response.data.message);
